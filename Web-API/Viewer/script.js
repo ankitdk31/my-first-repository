@@ -12,12 +12,12 @@ button.addEventListener('click', function() {
     // Check if the text has been changed
     if (textChanged === false) {
         // If it hasn't been changed, update the text
-        textParagraph.textContent = "I am out";
+        textParagraph.textContent = "Hello";
         // Update our tracking variable
         textChanged = true;
     } else {
         // If it has been changed, change it back to the original
-        textParagraph.textContent = "I am in.";
+        textParagraph.textContent = "Bye";
         // Update our tracking variable
         textChanged = false;
     }
